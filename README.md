@@ -51,5 +51,5 @@
    원격 저장소와 로컬 저장소가 서로 동기화 되어있지 않다는 뜻으로
    git pull origin master 또는
    git pull --rebase origin master
-   을 사용하여 원격 저장소와 로컬 저장소를 동기화 시켜준다
+   을 사용하여 원격 저장소와 로컬 저장소를 동기화 시켜준다.
    
