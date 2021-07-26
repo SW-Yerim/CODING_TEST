@@ -1,8 +1,8 @@
 # CODING_TEST
 
-Git 파일 올리는 방법
+<strong>Git 파일 올리는 방법</strong>
 
-[ 초기 설정 ]
+<strong>[ 초기 설정 ]</strong>
 1. 초기 설정을 위해 Git Bash Here 에서 
    git config --global user.name [깃허브 가입 시 이름]
    git config --global user.email [깃허브 가입 시 이메일]
@@ -10,7 +10,7 @@ Git 파일 올리는 방법
 
 
 
-[ 깃 신규파일 또는 수정파일 올리기 ]
+<strong>[ 깃 신규파일 또는 수정파일 올리기 ]</strong>
 1. 올리고자 하는 프로젝트 우클릭 > Git Bash Here 클릭
 
 2. 깃을 올릴 수 있는 폴더가 아닌 경우 
@@ -46,7 +46,7 @@ Git 파일 올리는 방법
 	 
 	 
 
-[ 오류 ]
+<strong>[ 오류 ]</strong>
 1. error : filed to push some refs to '깃허브 주소'
    원격 저장소와 로컬 저장소가 서로 동기화 되어있지 않다는 뜻으로
    git pull origin master 또는
