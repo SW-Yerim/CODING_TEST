@@ -8,10 +8,9 @@ Git 파일 올리는 방법
    git config --global user.email [깃허브 가입 시 이메일]
    두 가지를 입력 해 준다.
 
-2. 
 
 
-[ 깃 파일 올리기 ]
+[ 깃 신규파일 또는 수정파일 올리기 ]
 1. 올리고자 하는 프로젝트 우클릭 > Git Bash Here 클릭
 
 2. 깃을 올릴 수 있는 폴더가 아닌 경우 
@@ -45,6 +44,7 @@ Git 파일 올리는 방법
      원격 저장소로 업로드 하는 repository로 옮겨주는 과정이다.
 	 
 	 
+	 
 
 [ 오류 ]
 1. error : filed to push some refs to '깃허브 주소'
@@ -53,4 +53,3 @@ Git 파일 올리는 방법
    git pull --rebase origin master
    을 사용하여 원격 저장소와 로컬 저장소를 동기화 시켜준다
    
-2. 
