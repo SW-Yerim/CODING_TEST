@@ -5,7 +5,7 @@
 <br>
 <strong>[ 초기 설정 ]</strong> <br>
 1. 초기 설정을 위해 Git Bash Here 에서 <br>
-   git config --global user.name [깃허브 가입 시 이름] <br>
+   git config --global user.name [깃허브 가입 시 이름] <br> 
    git config --global user.email [깃허브 가입 시 이메일] <br>
    두 가지를 입력 해 준다.
 <br>
