@@ -1,23 +1,36 @@
 import java.util.Scanner;
 
-public class Today_210823 {
+public class Today_210824 {
 
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
 
-        int n = scan.nextInt();
+        String s = scan.next();
+        int[] arr = new int[26];
 
-        for (int i = 0; i < n; i++) {
-            int r = scan.nextInt();
-            String s = scan.next();
-            for (int j = 0; j < s.length(); j++) {
-                for (int z = 0; z < r; z++) {
-                    System.out.print(s.charAt(j));
-                }
+        // A = 65 / a = 97
+        for (int i = 0; i < s.length(); i++) {
+            if (s.charAt(i) >= 'A' && s.charAt(i) <= 'Z') {
+                arr[s.charAt(i)-'A']++;
+            } else {
+                arr[s.charAt(i)-'a']++;
             }
-            System.out.println();
         }
+
+        int max = -1;
+        char ch = '?';
+
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] > max) {
+                max = arr[i];
+                ch = (char)(i+65);
+            } else if (arr[i] == max) {
+                ch = '?';
+            }
+        }
+
+        System.out.println(ch);
 
     }
 }
